@@ -1,12 +1,11 @@
 import streamlit as st
 
-st.image("Python_logo.png")
-
 st.title("Especialización Python for Analytics")
 st.sidebar.title("Parámetros")
 st.write("Elaborado por: Jorge Muñoz")
 
-
+st.image("Python_logo.png", width=200)
+st.sidebar.image("DMC.png", width=100)
 
 modulos = st.sidebar.selectbox ("Selecione un módulo", ["Módulo Listas", "Módulo Arreglos", "Módulo Funciones"])
 
