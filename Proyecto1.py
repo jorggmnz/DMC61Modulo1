@@ -3,4 +3,4 @@ import numpy as np
 
 st.title("Especialización Python for Analytics")
 st.sidebar.title("Parámetros")
-st.write("Elaborado por: Jorge Muñoz")
+st.write("Elaborado por: Jorge Muñoz Ccasa")
